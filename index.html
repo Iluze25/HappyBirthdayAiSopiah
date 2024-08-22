@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Chef Shopiah</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Inconsolata:wght@200..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button onclick="sound()" id="buttonClick">Click Me</button>
+    <audio
+      id="audio"
+      style="display: none"
+      src="audio.mp3"
+      controls
+      loop
+    ></audio>
+    <div id="container">
+      <div class="textUcapan"></div>
+      <div class="Komentar kk1"></div>
+      <div class="Komentar kk2"></div>
+
+      <div id="pertanyaan" style="display: none">
+        <div id="footer" style="margin: 5px">
+          Apakah kamu sangat senang sekarang ?
+        </div>
+        <button id="ya" onclick="heartYes()">Ya</button>
+        <button id="Tidak" onclick="tidak()">Tidak</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
