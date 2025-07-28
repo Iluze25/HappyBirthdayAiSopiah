@@ -58,7 +58,7 @@ _Bara masih diam. Pandangannya kosong._
 - Bara menggenggam sendok erat. Nadya menyindir pelan.
 
 **NADYA:**
-“Kita semua kerja keras. Bahkan Lela yang paling kecil magang juga. Satu-satunya yang gak pernah kerja tuh cuma kamu.”
+“Kita semua sibuk, Bar. Bahkan Lela aja masih sekolah tiap hari, ngerjain tugas. Lo doang yang kelihatannya gak ngapa-ngapain.”
 
 ---
 
@@ -83,7 +83,7 @@ _duduknya bangkit keras, piring jatuh pecah_
 **RINA:**
 “Ya ampun. Heroik banget. Si martir keluarga.”
 
-**DITA:**
+**LELA:**
 “Kak, please. Dunia nggak berputar di sekitar trauma masa lalu kamu.”
 
 ---
