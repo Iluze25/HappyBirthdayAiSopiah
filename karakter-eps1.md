@@ -46,15 +46,15 @@ Tentu, Uze. Kalau kamu ingin **membuat gambaran visual untuk Episode 1: "Yang Te
 
 #### 🧍‍♀️ Nadya (Anak ke-3)
 
-- Gaya seperti perempuan sibuk, jam tangan mahal, HP tak pernah lepas
-- Rambut dikuncir atau blow, makeup tipis tapi kelihatan mahal
-- Tatapan cepat bosan, sering mengangkat alis
-
-#### 🧍‍♀️ Dita (Anak ke-4)
-
 - Penampilan stylish tapi dingin, outerwear tipis modern
 - Sering memutar sendok, tanda gelisah
 - Gestur datar tapi kata-katanya tajam
+
+#### 🧍‍♀️ Dita (Anak ke-4)
+
+- Gaya seperti perempuan sibuk, jam tangan mahal, HP tak pernah lepas
+- Rambut dikuncir atau blow, makeup tipis tapi kelihatan mahal
+- Tatapan cepat bosan, sering mengangkat alis
 
 #### 🧍 Fahri (Anak ke-5)
 
