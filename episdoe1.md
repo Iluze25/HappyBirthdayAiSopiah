@@ -30,7 +30,9 @@ _Genre: Thriller Psikologis, Keluarga, Realisme Gelap_
 **NADYA:**
 “Seharusnya kita video call aja. Kenapa harus kumpul semua?”
 
-**DITA:**
+<!-- Dita (anak ke -4) -->
+
+**Lela:**
 “Biar si pengangguran itu bisa lihat kita sukses kali.”
 
 ---
