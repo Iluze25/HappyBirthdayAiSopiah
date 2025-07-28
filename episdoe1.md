@@ -40,7 +40,7 @@ _Genre: Thriller Psikologis, Keluarga, Realisme Gelap_
 ### 🧨 Panel 7–10: _Serangan Bertubi-tubi_
 
 **RINA (dingin):**
-“Bar, kamu tuh... hidup kayak benalu. Sampai umur 38… masih minta Ayah buat biaya makan?”
+“Bar, kamu tuh… hidup kayak benalu. Udah segede gitu… masih minta Ayah buat biaya makan?”
 
 **FAHRI:**
 “Pakai baju dari mana sih? Mirip gelandangan. Serius.”
