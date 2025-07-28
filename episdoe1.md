@@ -1,11 +1,3 @@
-## Sekanario
-
-Siap, Uze! Kita ubah alurnya jadi **lebih sinis dan membumi**, dengan fokus utama bahwa **semua adik sangat membenci anak pertama karena dia tidak pernah bekerja**, dan bukan karena misteri kebakaran atau percobaan pembunuhan.
-
-Tapi tetap kita buat **thriller psikologis** — ketegangan datang dari **tekanan sosial, penghinaan bertubi-tubi, dan konfrontasi emosional yang meledak**, sampai akhirnya si anak sulung pecah atau membalas.
-
----
-
 ## 🎭 Judul Sementara:
 
 **"Yang Tertua: Tidak Berguna"**
@@ -20,10 +12,10 @@ _Genre: Thriller Psikologis, Keluarga, Realisme Gelap_
 ### 🕯️ Panel 1–3: _Pembukaan_
 
 - Tampak rumah tua dari luar, hujan deras.
-- Bara (anak pertama, 38 tahun, rambut agak panjang, mata lelah) membuka pagar.
+- Bara (anak pertama, rambut agak panjang, mata lelah) membuka pagar.
 - Narasi:
 
-  > “Katanya keluarga adalah tempat pulang. Tapi… aku lebih takut ke sini daripada ke kuburan.”
+  > “Katanya keluarga adalah tempat pulang. Tapi… aku lebih takut ke sini daripada pergi ke kuburan.”
 
 ---
 
@@ -31,10 +23,9 @@ _Genre: Thriller Psikologis, Keluarga, Realisme Gelap_
 
 - Semua anak duduk lengkap. Ayah di ujung meja, dingin, tidak banyak bicara.
 - Rina (anak ke-2), duduk sambil memeluk tangan.
-- Dita (anak ke-4) memainkan sendok dengan ekspresi malas.
 - Nadya (anak ke-3) sedang lihat jam, tidak sabar.
 - Fahri (anak ke-5) menatap tajam.
-- Lela (anak ke-6) tertunduk sambil mencoret-coret taplak meja.
+- Lela (anak ke-6) memainkan sendok dengan ekspresi malas.
 
 **NADYA:**
 “Seharusnya kita video call aja. Kenapa harus kumpul semua?”
