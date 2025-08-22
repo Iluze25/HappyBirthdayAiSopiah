@@ -97,30 +97,19 @@
             </div>
         </div>
 
-        <!-- Pesan spesial -->
-        <div class="bg-white bg-opacity-15 rounded-2xl p-4 mt-6 text-center">
-            <p class="text-white text-xl font-bold">Cheyank, ai sopiah 💕</p>
-        </div>
 
         <!-- Tombol lucu -->
         <div class="text-center mt-4">
-            <button onclick="showSurprise()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
+            <button onclick="showSurprise()" class="hidden bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200" id="surpriseButton">
                 Klik untuk kejutan! 🎁
             </button>
         </div>
 
-        <!-- Kata-kata spesial -->
-        <div class="bg-white bg-opacity-15 rounded-2xl p-6 mt-6 text-center">
-            <div class="text-3xl mb-3">💌</div>
-            <div class="text-white text-base leading-relaxed">
-                <p class="text-lg font-medium">Cheyank, ai sopiah</p>
-            </div>
-        </div>
-    </div>
+      
 
     <script>
         // Set tanggal target - 23 Agustus 2025
-        const targetDate = new Date('2025-08-23T00:00:00').getTime();
+        const targetDate = new Date('2025-08-23T10:00:00').getTime();
         
         // Pesan-pesan lucu yang berganti
         const messages = [
@@ -134,28 +123,32 @@
         let messageIndex = 0;
         
         function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = targetDate - now;
-            
-            if (distance < 0) {
-                document.getElementById('days').textContent = '00';
-                document.getElementById('hours').textContent = '00';
-                document.getElementById('minutes').textContent = '00';
-                document.getElementById('seconds').textContent = '00';
-                document.getElementById('message').textContent = 'Selamat! Hari spesial sudah tiba! 🎉';
-                return;
-            }
-            
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-            document.getElementById('days').textContent = days.toString().padStart(2, '0');
-            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-        }
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+    
+    if (distance < 0) {
+        document.getElementById('days').textContent = '00';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
+        document.getElementById('message').textContent = 'Selamat! Hari spesial sudah tiba! 🎉';
+
+        // tampilkan tombol
+        document.getElementById('surpriseButton').classList.remove('hidden');
+        return;
+    }
+    
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById('days').textContent = days.toString().padStart(2, '0');
+    document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+    document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+    document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+}
+
         
         function changeMessage() {
             document.getElementById('message').textContent = messages[messageIndex];
