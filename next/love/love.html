@@ -13,6 +13,37 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes rainbow {
+        0% {
+          background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+        }
+        25% {
+          background: linear-gradient(45deg, #4ecdc4, #45b7d1);
+        }
+        50% {
+          background: linear-gradient(45deg, #45b7d1, #96ceb4);
+        }
+        75% {
+          background: linear-gradient(45deg, #96ceb4, #feca57);
+        }
+        100% {
+          background: linear-gradient(45deg, #feca57, #ff6b6b);
+        }
+      }
+
+      .btn-rainbow {
+        background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+        background-size: 200% 200%;
+        animation: rainbow 3s ease infinite;
+      }
+
+      .btn-rainbow:hover {
+        transform: scale(1.1);
+        animation-duration: 1s;
+      }
+    </style>
   </head>
   <body>
     <div id="drag-container">
@@ -27,9 +58,12 @@
         <video autoplay muted loop>
           <source src="./images/43c973265ac7420a84ea93eab59e85b1.mp4" />
         </video>
-        <video autoplay muted loop>
-          <source src="./images/43c973265ac7420a84ea93eab59e85b1.mp4" />
-        </video>
+        <button
+          onclick="showVideo()"
+          class="btn-rainbow text-white font-bold py-4 px-12 rounded-full text-xl transition-all duration-300 shadow-lg"
+        >
+          ✨ Klik Saya
+        </button>
         <img src="./images/IMG-20250809-WA0003.jpg" alt="" />
         <img src="./images/IMG-20250211-WA0004.jpg" alt="" />
         <p>Happy Birthday AiSopiah ke-22 🥰😚</p>
@@ -49,7 +83,13 @@
     </audio>
 
     <script src="main.js"></script>
-
+    <script>
+      function showVideo() {
+        (window.location.href =
+          "https://drive.google.com/file/d/13df7u3MUwib1SQw0zH148MFqDP6MtA4x/view"),
+          "_blank";
+      }
+    </script>
     <script>
       window.onload = function () {
         var audio = document.getElementById("myAudio");

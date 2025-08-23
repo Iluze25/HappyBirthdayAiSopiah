@@ -178,15 +178,16 @@
 
       // langsung set nama tanpa popup
       async function inipesan() {
-        window.nama = "Ai Sopiah ke-22";
-        vketikhalo = "Happy Birthday, " + nama + "!";
+        window.nama = "Ai Sopiah";
+        vketikhalo = "Happy Birthday, " + nama + " ke-22!";
         mulainama();
       }
 
-      var tanya = "How about we celebrate your birthday in style?";
-      var opstanya = "Your choice is:";
-      var tompositif = "Absolutely, let’s celebrate! 🎉";
-      var tomnegatif = "Maybe another time";
+      var tanya =
+        "Bagaimana kalau kita rayakan ulang tahunmu dengan gaya? 🎂✨";
+      var opstanya = "Pilihanmu adalah:";
+      var tompositif = "Tentu saja, ayo kita rayakan! 🎉";
+      var tomnegatif = "Mungkin lain kali saja 🙂";
 
       async function pertanyaan() {
         var { isConfirmed: prtanya } = await swals.fire({
